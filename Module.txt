@@ -1,0 +1,9 @@
+﻿Name: Flex Slider
+AntiForgery: enabled
+Author: Abdurrahman Güngör - TeknoGelişim İstanbul
+Website: http://abdurrahmangungor.com - http://teknogelisim.com
+Version: 1.0.1
+OrchardVersion: 1.8
+Description: Image slider with description. Based on Jquery Flex Slider.
+Category: Widget
+Dependencies: Orchard.jQuery, Tekno.Bootstrap, Orchard.MediaLibrary

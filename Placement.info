@@ -1,0 +1,8 @@
+﻿<Placement>
+  <Place Parts_FlexSlider_Edit="Content:5"/>
+  <Place Parts_FlexSlider="Content:1"/>
+<Place Parts_FlexSliderWidget_Edit="Content:5"/>
+  <Place Parts_FlexSliderWidget="Content:1"/>
+  <Place Parts_FlexSliderGroup_Edit="Content:5"/>
+  <Place Parts_FlexSliderGroup="Content:1"/>
+</Placement>

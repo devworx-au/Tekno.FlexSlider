@@ -1,0 +1,80 @@
+﻿@using Tekno.FlexSlider.ViewModels
+
+@{
+    Style.Require("FlexSlider");
+    Script.Require("FlexSlider");
+
+    var items = (IEnumerable<FlexSliderWidgetViewModel>)Model.SlideItems;
+}
+<div class="flexslider">
+    <ul class="slides">
+        @foreach (var item in items)
+        {
+            <li>
+                @if (item.ImagePath != "")
+                {
+                    <img src="@Display.ResizeMediaUrl(Path: item.ImagePath, Height: 400, Mode: "crop")" />
+                }
+                <span class="slide-text">@item.Title</span>
+            </li>
+        }
+    </ul>
+    <span class="slide-text-bottom"></span>
+</div>
+@using (Script.Foot())
+{
+    <style type="text/css">
+        .flexslider {
+            border-radius: 0;
+        }
+
+        .flex-direction-nav a {
+            height: auto;
+        }
+
+        .flexslider .slides img {
+            height: 400px;
+        }
+
+        .flex-control-nav {
+            text-align: left;
+        }
+
+        .slide-text {
+            display: none;
+        }
+
+        .slide-text-bottom {
+            bottom: -36px;
+            font-size: 15px;
+            position: absolute;
+        }
+    </style>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $(".flex-control-paging").append("<li class='slide-text-bottom'></li>");
+
+
+
+            $('.flexslider').flexslider({
+                after: function () {
+                    $(".slide-text-bottom").text($(".flex-active-slide>span").text());
+                }
+            });
+            $(".slide-text-bottom").text($(".flex-active-slide>span").text());
+
+            $(".flex-prev").text("");
+            $(".flex-next").text("");
+
+            var count = 0;
+            var itemCount = $(".flex-control-nav li").each(function (i, v) {
+                count += $(v).outerWidth(true);
+            });
+            count += 10;
+            $(".slide-text-bottom").css("left", count);
+        });
+    </script>
+}

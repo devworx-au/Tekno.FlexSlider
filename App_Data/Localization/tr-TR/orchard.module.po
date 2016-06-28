@@ -1,0 +1,125 @@
+#----------------------CLASSES------------------------
+
+#: "Tekno.FlexSlider.AdminMenu"
+msgctxt "Tekno.FlexSlider.AdminMenu"
+msgid "Slider"
+msgstr "Slayt"
+
+#: "Tekno.FlexSlider.AdminMenu"
+msgctxt "Tekno.FlexSlider.AdminMenu"
+msgid "New Slider Group"
+msgstr "Yeni Slayt Grubu"
+
+#: "Tekno.FlexSlider.AdminMenu"
+msgctxt "Tekno.FlexSlider.AdminMenu"
+msgid "Manage Slider Groups"
+msgstr "Slayt Gruplarını Yönet"
+
+#: "Tekno.FlexSlider.AdminMenu"
+msgctxt "Tekno.FlexSlider.AdminMenu"
+msgid "New Slider Item"
+msgstr "Yeni Slayt Öğesi"
+
+#: "Tekno.FlexSlider.AdminMenu"
+msgctxt "Tekno.FlexSlider.AdminMenu"
+msgid "Manage Slider Items"
+msgstr "Slayt Öğelerini Yönet"
+
+#: "Tekno.FlexSlider.Controllers.AdminController"
+msgctxt "Tekno.FlexSlider.Controllers.AdminController"
+msgid "Not allowed to manage slide items"
+msgstr "Slayt öğelerini yönetme yetkiniz yok"
+
+#: "Tekno.FlexSlider.Drivers.FlexSliderDriver"
+msgctxt "Tekno.FlexSlider.Drivers.FlexSliderDriver"
+msgid "Not allowed to view slide items"
+msgstr "Slayt öğelerini görüntüleme yetkiniz yok"
+
+#: "Tekno.FlexSlider.Drivers.FlexSliderGroupDriver"
+msgctxt "Tekno.FlexSlider.Drivers.FlexSliderGroupDriver"
+msgid "Not allowed to view slide items"
+msgstr "Slayt öğelerini görüntüleme yetkiniz yok"
+
+
+
+#--------------------------VIEWS------------------------------
+
+#: "~/Modules/Tekno.FlexSlider/Views/Admin/Items.cshtml"
+msgctxt "~/Modules/Tekno.FlexSlider/Views/Admin/Items.cshtml"
+msgid "Slider"
+msgstr "Slayt"
+
+#: "~/Modules/Tekno.FlexSlider/Views/Admin/Items.cshtml"
+msgctxt "~/Modules/Tekno.FlexSlider/Views/Admin/Items.cshtml"
+msgid "Slider"
+msgstr "Slayt"
+
+#: "~/Modules/Tekno.FlexSlider/Views/Admin/Items.cshtml"
+msgctxt "~/Modules/Tekno.FlexSlider/Views/Admin/Items.cshtml"
+msgid "You have not yet created any slider items. Create a"
+msgstr "Hiç yeni slayt öğesi oluşturulmamış. "
+
+#: "~/Modules/Tekno.FlexSlider/Views/Admin/Items.cshtml"
+msgctxt "~/Modules/Tekno.FlexSlider/Views/Admin/Items.cshtml"
+msgid "new slider item"
+msgstr "Yeni bir slayt öğesi"
+
+#: "~/Modules/Tekno.FlexSlider/Views/Admin/Items.cshtml"
+msgctxt "~/Modules/Tekno.FlexSlider/Views/Admin/Items.cshtml"
+msgid "now."
+msgstr " oluşturun."
+
+#: "~/Modules/Tekno.FlexSlider/Views/Parts/FlexSlider.cshtml"
+msgctxt "~/Modules/Tekno.FlexSlider/Views/Parts/FlexSlider.cshtml"
+msgid "Slide Order"
+msgstr "Slayt Sırası"
+
+#: "~/Modules/Tekno.FlexSlider/Views/Parts/FlexSlider.cshtml"
+msgctxt "~/Modules/Tekno.FlexSlider/Views/Parts/FlexSlider.cshtml"
+msgid "Group"
+msgstr "Grup"
+
+#: "~/Modules/Tekno.FlexSlider/Views/EditorTemplates/Parts/FlexSlider.cshtml"
+msgctxt "~/Modules/Tekno.FlexSlider/Views/EditorTemplates/Parts/FlexSlider.cshtml"
+msgid "Slide Order"
+msgstr "Slayt Sırası"
+
+#: "~/Modules/Tekno.FlexSlider/Views/EditorTemplates/Parts/FlexSlider.cshtml"
+msgctxt "~/Modules/Tekno.FlexSlider/Views/EditorTemplates/Parts/FlexSlider.cshtml"
+msgid "Slider Group"
+msgstr "Slayt Grubu"
+
+#: "~/Modules/Tekno.FlexSlider/Views/EditorTemplates/Parts/FlexSliderWidget.cshtml"
+msgctxt "~/Modules/Tekno.FlexSlider/Views/EditorTemplates/Parts/FlexSliderWidget.cshtml"
+msgid "Showing Items"
+msgstr "Gösterilecek Öğe"
+
+#: "~/Modules/Tekno.FlexSlider/Views/EditorTemplates/Parts/FlexSliderWidget.cshtml"
+msgctxt "~/Modules/Tekno.FlexSlider/Views/EditorTemplates/Parts/FlexSliderWidget.cshtml"
+msgid "count"
+msgstr "adet"
+
+#: "~/Modules/Tekno.FlexSlider/Views/EditorTemplates/Parts/FlexSliderWidget.cshtml"
+msgctxt "~/Modules/Tekno.FlexSlider/Views/EditorTemplates/Parts/FlexSliderWidget.cshtml"
+msgid "Slider Group"
+msgstr "Slayt Grubu"
+
+#: "~/Modules/Tekno.FlexSlider/Views/Admin/Groups.cshtml"
+msgctxt "~/Modules/Tekno.FlexSlider/Views/Admin/Groups.cshtml"
+msgid "Slider Group"
+msgstr "Slayt Grubu"
+
+#: "~/Modules/Tekno.FlexSlider/Views/Admin/Groups.cshtml"
+msgctxt "~/Modules/Tekno.FlexSlider/Views/Admin/Groups.cshtml"
+msgid "You have not yet created any slider groups. Create a"
+msgstr "Hiç yeni slayt grubu oluşturulmamış. "
+
+#: "~/Modules/Tekno.FlexSlider/Views/Admin/Groups.cshtml"
+msgctxt "~/Modules/Tekno.FlexSlider/Views/Admin/Groups.cshtml"
+msgid "new slider group"
+msgstr "Yeni bir slayt grubu"
+
+#: "~/Modules/Tekno.FlexSlider/Views/Admin/Groups.cshtml"
+msgctxt "~/Modules/Tekno.FlexSlider/Views/Admin/Groups.cshtml"
+msgid "now."
+msgstr " oluşturun."

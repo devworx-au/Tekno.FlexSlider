@@ -1,0 +1,16 @@
+﻿@{
+    Layout.Title = T("Slider Group");
+}
+@if (Model.NumberOfItems > 0)
+{
+    using (Html.BeginFormAntiForgeryPost(Url.Action("List", "Admin", new { area = "Contents", id = "" })))
+    {
+        <fieldset class="contentItems bulk-items">
+            @Display(Model.ContentItems)
+        </fieldset>
+    }
+}
+else
+{
+    <p>@T("You have not yet created any slider groups. Create a") @Html.ActionLink(T("new slider group").ToString(), "Create", "Admin", new { area = "Contents", id = "FlexSliderGroup" }, null) @T("now.")</p>
+}
