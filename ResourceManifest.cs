@@ -6,7 +6,7 @@ namespace Tekno.FlexSlider
     {
         public void BuildManifests(ResourceManifestBuilder builder)
         {
-            builder.Add().DefineStyle("FlexSlider").SetUrl("flexslider.min.css", "flexslider.css").SetDependencies("Tekno.Bootstrap");
+            builder.Add().DefineStyle("FlexSlider").SetUrl("flexslider.min.css", "flexslider.css");
 
             builder.Add().DefineScript("FlexSlider").SetUrl("jquery.flexslider.min.js", "jquery.flexslider.js").SetDependencies("jQuery");
         }
