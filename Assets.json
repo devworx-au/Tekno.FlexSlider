@@ -1,0 +1,12 @@
+[
+  {
+    "inputs": [ "Assets/Less/flexslider.less" ],
+    "output": "Styles/flexslider.css"
+  },
+  {
+    "inputs": [
+      "Assets/Js/jquery.flexslider.js"
+    ],
+    "output": "Scripts/jquery.flexslider.js"
+  }
+]
