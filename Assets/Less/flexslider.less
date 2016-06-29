@@ -16,3 +16,28 @@
 @import "base.less";
 @import "theme.less";
 @import "responsive.less";
+
+.flex-direction-nav {
+    li {
+        line-height: 1;
+    }
+}
+
+
+/*
+    Full width flex sliders that go to the edge of the page will move the direction navs off canvas
+    and add a horizontal slider to the page.
+
+    This allows for adding the 'flex-fullwidth' class to a widget to fix this issue.
+*/
+.flex-fullwidth {
+    .flex-direction-nav {
+        .flex-prev {
+            left: 0px;
+        }
+
+        .flex-next {
+            right: 0px;
+        }
+    }
+}
